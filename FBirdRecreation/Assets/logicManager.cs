@@ -22,4 +22,7 @@ public class logicManager : MonoBehaviour {
         gameOverScreen.SetActive(true);
     }
 
+    public void doExitGame() {
+        Application.Quit();
+    }
 }
